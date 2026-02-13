@@ -155,29 +155,6 @@ pages = {
 <footer>
 <p>&copy; 2026 Mohammed Cherkaoui</p>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-<script>
-  (function(){
-    emailjs.init("O6FCw9mawUr47tNVJ");
-  })();
-
-  document.getElementById("contact-form")
-    .addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      emailjs.sendForm(
-        "service_ezlrhyq",
-        "template_7tia14d",
-        this
-      ).then(function() {
-          alert("Message envoyé avec succès !");
-      }, function(error) {
-          alert("Erreur, حاول مرة أخرى");
-      });
-    });
-</script>
-
 </body>
 </html>
 """
