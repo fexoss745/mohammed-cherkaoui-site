@@ -1,22 +1,36 @@
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Mohammed Cherkaoui</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="gallery.html">Galerie</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
 
-<script>
-  (function(){
-    emailjs.init("O6FCw9mawUr47tNVJ");
-  })();
+<section class="contact">
+<h2>Contact</h2>
+<form>
+<input type="text" placeholder="Nom" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Message" required></textarea>
+<button type="submit">Envoyer</button>
+</form>
+</section>
 
-  document.getElementById("contact-form")
-    .addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      emailjs.sendForm(
-        "service_ezlrhyq",
-        "template_7tia14d",
-        this
-      ).then(function() {
-          alert("Message envoyé avec succès !");
-      }, function(error) {
-          alert("Erreur, حاول مرة أخرى");
-      });
-    });
-</script>
+<footer>
+<p>&copy; 2026 Mohammed Cherkaoui</p>
+</footer>
+</body>
+</html>
