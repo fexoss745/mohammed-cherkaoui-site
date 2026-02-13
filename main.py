@@ -68,9 +68,9 @@ pages = {
 <p>كل لوحة تحمل إحساسه الخاص وتبرز طريقته الفريدة في التعبير الفني، مزيج بين التقليدي والعصري بطريقة تجعل كل عمل فني ممتع للعين وذو قيمة فنية عالية.</p>
 
 <div class="gallery">
-<img src="images/artwork1.jpg.jpg" alt="Artwork 1">
-<img src="images/artwork5.webp" alt="Artwork 5">
-<img src="images/artwork6.webp" alt="Artwork 6">
+<img src="artwork1.jpg.jpg" alt="Artwork 1">
+<img src="artwork5.webp" alt="Artwork 5">
+<img src="artwork6.webp" alt="Artwork 6">
 </div>
 </section>
 
@@ -105,12 +105,12 @@ pages = {
 <section class="gallery">
 <h2>معرض الأعمال</h2>
 <div class="grid">
-<img src="images/artwork1.jpg.jpg" alt="Artwork 1">
-<img src="images/artwork2.jpg.jpg" alt="Artwork 2">
-<img src="images/artwork3.jpg.webp" alt="Artwork 3">
-<img src="images/artwork4.webp" alt="Artwork 4">
-<img src="images/artwork5.webp" alt="Artwork 5">
-<img src="images/artwork6.webp" alt="Artwork 6">
+<img src="artwork1.jpg.jpg" alt="Artwork 1">
+<img src="artwork2.jpg.jpg" alt="Artwork 2">
+<img src="artwork3.jpg.webp" alt="Artwork 3">
+<img src="artwork4.webp" alt="Artwork 4">
+<img src="artwork5.webp" alt="Artwork 5">
+<img src="artwork6.webp" alt="Artwork 6">
 </div>
 </section>
 
@@ -198,3 +198,4 @@ Handler = http.server.SimpleHTTPRequestHandler
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print(f"Server running at http://localhost:{PORT}")
     httpd.serve_forever()
+
