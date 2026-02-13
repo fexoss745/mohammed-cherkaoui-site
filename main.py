@@ -20,22 +20,22 @@ pages = {
 <header>
 <nav>
 <ul>
-<li><a href="index.html">الرئيسية</a></li>
-<li><a href="about.html">حول الفنان</a></li>
-<li><a href="gallery.html">معرض الأعمال</a></li>
-<li><a href="contact.html">تواصل معنا</a></li>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="gallery.html">Galerie</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
 </header>
 
 <section class="hero">
-<h1>محمد الشرقاوي السلامي</h1>
-<p>فنان تشكيلي</p>
+<h1>Mohammed cherkaoui sellami</h1>
+<p>Artiste visuel</p>
 <p>يستكشف الجمال في لوحاته ويعبّر عن مواضيع قريبة من قلبه</p>
 </section>
 
 <footer>
-<p>&copy; 2026 محمد الشرقاوي السلامي</p>
+<p>&copy; 2026 Mohammed cherkaoui sellami</p>
 </footer>
 </body>
 </html>
@@ -46,18 +46,18 @@ pages = {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>حول الفنان - محمد الشرقاوي السلامي</title>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+<title>À propos de l'artiste - Mohammed cherkaoui sellami</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
 <nav>
 <ul>
-<li><a href="index.html">الرئيسية</a></li>
-<li><a href="about.html">حول الفنان</a></li>
-<li><a href="gallery.html">معرض الأعمال</a></li>
-<li><a href="contact.html">تواصل معنا</a></li>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="gallery.html">Galerie</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
 </header>
@@ -75,7 +75,7 @@ pages = {
 </section>
 
 <footer>
-<p>&copy; 2026 محمد الشرقاوي السلامي</p>
+<p>&copy; 2026 Mohammed cherkaoui sellami</p>
 </footer>
 </body>
 </html>
@@ -86,7 +86,7 @@ pages = {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>معرض الأعمال - محمد الشرقاوي السلامي</title>
+<title>Mohammed cherkaoui sellami - Galerie</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -94,16 +94,16 @@ pages = {
 <header>
 <nav>
 <ul>
-<li><a href="index.html">الرئيسية</a></li>
-<li><a href="about.html">حول الفنان</a></li>
-<li><a href="gallery.html">معرض الأعمال</a></li>
-<li><a href="contact.html">تواصل معنا</a></li>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="gallery.html">Galerie</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
 </header>
 
 <section class="gallery">
-<h2>معرض الأعمال</h2>
+<h2>Galerie</h2>
 <div class="grid">
 <img src="artwork1.jpg.jpg" alt="Artwork 1">
 <img src="artwork2.jpg.jpg" alt="Artwork 2">
@@ -115,18 +115,18 @@ pages = {
 </section>
 
 <footer>
-<p>&copy; 2026 محمد الشرقاوي السلامي</p>
+<p>&copy; 2026 Mohammed cherkaoui sellami</p>
 </footer>
 </body>
 </html>
 """,
     "contact.html": """
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>تواصل معنا - محمد الشرقاوي السلامي</title>
+<title>Mohammed cherkaoui sellami - contact</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -134,26 +134,26 @@ pages = {
 <header>
 <nav>
 <ul>
-<li><a href="index.html">الرئيسية</a></li>
-<li><a href="about.html">حول الفنان</a></li>
-<li><a href="gallery.html">معرض الأعمال</a></li>
-<li><a href="contact.html">تواصل معنا</a></li>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="gallery.html">Galerie</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
 </header>
 
 <section class="contact">
-<h2>تواصل معنا</h2>
+<h2>Contact<h2>
 <form>
-<input type="text" placeholder="الاسم" required>
-<input type="email" placeholder="البريد الإلكتروني" required>
-<textarea placeholder="الرسالة" required></textarea>
-<button type="submit">إرسال</button>
+<input type="text" placeholder="Nom" required>
+<input type="email" placeholder="اEmail" required>
+<textarea placeholder="Message" required></textarea>
+<button type="submit">envoyé</button>
 </form>
 </section>
 
 <footer>
-<p>&copy; 2026 محمد الشرقاوي السلامي</p>
+<p>&copy; 2026 Mohammed cherkaoui sellami</p>
 </footer>
 </body>
 </html>
@@ -198,4 +198,5 @@ Handler = http.server.SimpleHTTPRequestHandler
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print(f"Server running at http://localhost:{PORT}")
     httpd.serve_forever()
+
 
